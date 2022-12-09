@@ -8,8 +8,8 @@ import (
 
 // model
 type todo struct {
-	ID 		string `json:"id"`
-	Item 	string `json:"item"`
+	ID string `json:"id"`
+	Item string `json:"item"`
 	Completed bool `json:"completed"`
 }
 
